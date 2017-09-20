@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92e199fd-ec08-4a32-a58b-fd3de3711619">
   <producedTypes>
-    <objectType typeId="b7eb76aa-9a63-40e3-b1de-946517e7d7e9" valueTypeId="24933d91-b648-4a33-a64b-8c435aa1dc47"/>
-    <refType typeId="fe16e3fa-aa4c-4095-ba52-62d802c6d220" valueTypeId="9e6ff58f-8675-48c6-85f5-bc1b929f0426"/>
-    <selectionType typeId="0e890a16-4725-4b88-ae9f-0b51b374bd8d" valueTypeId="3893a612-fcf8-4956-b493-94e35e1c7598"/>
-    <listType typeId="85165273-38b5-4fe7-ac8c-20305e0b647b" valueTypeId="be613527-9d1a-45a3-86a3-213b76ea81e2"/>
-    <managerType typeId="89dc4e04-091c-49b2-90ef-9edb173f0f92" valueTypeId="0ef7b93c-7c4d-4aa0-aedd-0c8965b623cd"/>
+    <objectType typeId="b7eb76aa-9a63-40e3-b1de-946517e7d7e9" valueTypeId="24933d91-b648-4a33-a64b-8c435aa1dc47">
+    </objectType>
+    <refType typeId="fe16e3fa-aa4c-4095-ba52-62d802c6d220" valueTypeId="9e6ff58f-8675-48c6-85f5-bc1b929f0426">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="0e890a16-4725-4b88-ae9f-0b51b374bd8d" valueTypeId="3893a612-fcf8-4956-b493-94e35e1c7598">
+    </selectionType>
+    <listType typeId="85165273-38b5-4fe7-ac8c-20305e0b647b" valueTypeId="be613527-9d1a-45a3-86a3-213b76ea81e2">
+    </listType>
+    <managerType typeId="89dc4e04-091c-49b2-90ef-9edb173f0f92" valueTypeId="0ef7b93c-7c4d-4aa0-aedd-0c8965b623cd">
+    </managerType>
   </producedTypes>
   <name>Продажа</name>
   <synonym>
@@ -104,6 +110,20 @@
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="e9402541-8844-4ff4-ac86-b3b4a3f56284">
+    <name>Реквизит1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <forms uuid="bfe92334-9e41-4005-8acd-3a1a999f08d7">
     <name>ФормаДокумента</name>
     <synonym>
@@ -126,8 +146,10 @@
   </forms>
   <tabularSections uuid="5f3d0bc6-6d9e-414b-8162-8c6695da35f6">
     <producedTypes>
-      <objectType typeId="2c40a580-f9f8-4f68-90dd-4c7e17afe89a" valueTypeId="c0585a1b-90e8-41f5-a04a-9c0f2bcdbb66"/>
-      <rowType typeId="1a2d41d7-ec30-4df6-9ed9-ef90c5c1c53e" valueTypeId="6e23ab32-7cea-4fd6-9c6a-09f7b0be825d"/>
+      <objectType typeId="2c40a580-f9f8-4f68-90dd-4c7e17afe89a" valueTypeId="c0585a1b-90e8-41f5-a04a-9c0f2bcdbb66">
+      </objectType>
+      <rowType typeId="1a2d41d7-ec30-4df6-9ed9-ef90c5c1c53e" valueTypeId="6e23ab32-7cea-4fd6-9c6a-09f7b0be825d">
+      </rowType>
     </producedTypes>
     <name>ТабличнаяЧасть</name>
     <synonym>
