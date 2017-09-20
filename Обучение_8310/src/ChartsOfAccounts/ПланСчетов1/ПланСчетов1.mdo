@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fef59a4f-2261-4e06-9ecc-2d61397aecc1">
+  <producedTypes>
+    <objectType typeId="f85bb722-4d4d-4e74-b3f3-7e827fafe74d" valueTypeId="7ff83a96-c7c0-4659-8e9b-42e171368882"/>
+    <refType typeId="2b657a77-d702-47c0-9e12-8bda8f3b6e9f" valueTypeId="23924720-4531-4aa9-9d5d-d41757df96d2"/>
+    <selectionType typeId="95950fcc-db80-4e08-a189-23c7711c043e" valueTypeId="30e764c7-63a5-4fb7-a5b1-e8ab4d6a9d5b"/>
+    <listType typeId="fe72fccf-b0df-487e-a143-3c06f0921b4d" valueTypeId="8a9a143b-bed9-4e5c-9f26-599a1c5e436a"/>
+    <managerType typeId="4496fe2f-7c80-49e4-b5dd-25b02d3e8e20" valueTypeId="3f9b9f7b-185c-4258-9003-7dabb5b7dabd"/>
+    <extDimensionTypes typeId="5ef69244-5d22-4650-91b5-739631051189" valueTypeId="6093e7b8-2c49-4e3c-aa2a-85a332d3a9f6"/>
+    <extDimensionTypesRow typeId="4fe37554-bb4d-4652-90e2-66324e5c9551" valueTypeId="678f282b-a930-4fb9-b918-7bc8cb671b29"/>
+  </producedTypes>
+  <name>ПланСчетов1</name>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.ПланСчетов1.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.ПланСчетов1.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ПланВидовХарактеристик1</extDimensionTypes>
+  <codeMask></codeMask>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="d71a3220-c5f7-4de2-afd3-3e0778c37dc6">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>41</code>
+      <accountType>ActivePassive</accountType>
+      <order></order>
+    </items>
+    <items id="f0cce7fc-2a40-4a53-b005-88c0f6e6fe12">
+      <name>Касса</name>
+      <description>Касса</description>
+      <code>50</code>
+      <accountType>ActivePassive</accountType>
+      <order></order>
+    </items>
+    <items id="14324650-d90c-4fd9-84fb-3106f1095246">
+      <name>РС</name>
+      <description>Касса</description>
+      <code>51</code>
+      <accountType>ActivePassive</accountType>
+      <order></order>
+    </items>
+    <items id="cb4a63ba-c5c3-4ddd-9c51-ca8e498b1ac9">
+      <name>ОС</name>
+      <description>ОС</description>
+      <code>01</code>
+      <accountType>ActivePassive</accountType>
+      <order></order>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <extDimensionAccountingFlags uuid="75d7d38a-3b5e-41c7-9d0c-702f2a4a87cf">
+    <name>ПризнакУчетаСубконто1</name>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+</mdclass:ChartOfAccounts>

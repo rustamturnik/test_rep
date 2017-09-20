@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07afdd54-4109-4c63-8976-426223000e84">
+  <producedTypes>
+    <objectType typeId="a90eb6ba-e3cc-4aa6-a85b-d13fba3af3c3" valueTypeId="ca30336a-f700-4937-8751-342e818582a5"/>
+    <managerType typeId="9cc70a09-42b2-4c5f-9551-e7f47ae9c347" valueTypeId="21d7ed77-ad35-4c2e-aca8-40f8d6e4f196"/>
+  </producedTypes>
+  <name>Отчет3</name>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Отчет3.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Отчет3.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="446168f6-56ed-4faa-8ec4-70e72184a2ac">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="874ce9f7-85e8-4b45-8b85-155fa98240ec">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

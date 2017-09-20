@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5636ddfe-2984-4863-aaa0-9d38c7321190">
+  <name>TestExchangeNomenclature</name>
+  <synonym>
+    <key>ru</key>
+    <value>Test exchange nomenclature</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://www.rusl.ru.NomemclatureExchange</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>c5270e46-493a-4c9a-b170-b045172e41ce</value>
+  </xdtoPackages>
+  <descriptorFileName>http://www.rusl.ru.NomemclatureExchange.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="49a3da13-6277-41a1-8d0d-170d15f4b3df">
+    <name>getNom</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get nom</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>СписокНоменклатуры</name>
+      <nsUri>http://www.rusl.ru.Nomemclature</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>getNom</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="3b5feaa0-3dbd-4eb9-86f8-eb54a4b3d044">
+      <name>Name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Name</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>

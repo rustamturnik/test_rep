@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1b6c789-eee0-4ece-aba5-815443f00bfc">
+  <producedTypes>
+    <selectionType typeId="8a0ff1ab-5cac-4a7f-a9e5-2ceedb4743b6" valueTypeId="c41b05af-60aa-4c32-bf8e-df83064897e5"/>
+    <listType typeId="6c180c2c-5b4c-45e4-ba1d-b8a733551fa7" valueTypeId="6bb03b37-93ce-4d8d-95e1-3b45ac5c37fe"/>
+    <managerType typeId="e422c9ca-3302-4548-8b8b-fd18d440127a" valueTypeId="6f78747e-443c-40ff-8afb-8077dc0c352b"/>
+    <recordSetType typeId="b8cab477-2d59-43f8-bb33-2dc5eef8ba13" valueTypeId="88774593-00d8-4a4c-b001-6a0d337fdd66"/>
+    <recordKeyType typeId="288f092f-1f69-4c8a-9a03-f87e6c0ca284" valueTypeId="6060cf78-051a-405c-802f-ff43126c03df"/>
+    <recordType typeId="a6d45a50-88c5-4153-aa8b-64c7fd31fb2b" valueTypeId="0000aeff-c6d9-4e91-9593-581ef5463d3d"/>
+    <recordManagerType typeId="791a63f5-b72d-48c1-8108-426c983b0889" valueTypeId="d4d079c0-a1a7-41d5-bfb1-bed8f541a242"/>
+  </producedTypes>
+  <name>РС_Тест4</name>
+  <synonym>
+    <key>ru</key>
+    <value>РС тест4</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="a2c30933-327c-469f-a437-fb309fb45b2d">
+    <name>Ресурс1</name>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="7d2fb795-f712-4c2d-b6e3-a643ba3a5cb9">
+    <name>Число1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число1</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

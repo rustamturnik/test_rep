@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46e6bbb6-d136-4da0-9b7d-f955baa9ff68">
+  <producedTypes>
+    <selectionType typeId="bbf9be67-a1b0-4353-bbb8-3b59dcaa3405" valueTypeId="aaf356dc-815b-4fd5-ac00-3d14338d7bfe"/>
+    <listType typeId="9a4feed9-904b-4ea6-8b64-981d104356df" valueTypeId="1a4f5a44-08f4-4c10-abc5-f7291edb0956"/>
+    <managerType typeId="c5a8f431-37e8-425f-8c88-db1c378afba5" valueTypeId="c509331d-090b-489b-bf16-6b9291b4b864"/>
+    <recordSetType typeId="7c02315b-818e-4287-aed6-095583db3654" valueTypeId="1eefb98b-4080-4165-8d34-48efa0236da8"/>
+    <recordKeyType typeId="cf707e86-dce1-4caf-9446-f596e8bd4099" valueTypeId="9e71d9e0-6327-4645-9584-7c0069d4fee1"/>
+    <recordType typeId="8333a7a4-a3b9-4c62-9376-f81f44b1bbf4" valueTypeId="a9029714-907e-46c6-ac1a-0decb63f9acd"/>
+    <extDimensionsType typeId="fd03145a-fa74-4def-ab8d-11a89a9c746f" valueTypeId="8324a4aa-fc39-4592-a5de-224033b7e38b"/>
+  </producedTypes>
+  <name>РегистрБухгалтерии1</name>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.ПланСчетов1</chartOfAccounts>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3cc808b1-7559-4858-a982-42310f17716d">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </dimensions>
+  <resources uuid="e616595f-b634-4607-ab85-27987f8f1156">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

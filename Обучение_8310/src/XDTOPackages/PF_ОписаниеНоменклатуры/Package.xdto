@@ -1,0 +1,17 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.rusl.ru.Nomemclature">
+	<objectType name="Nomenclature">
+		<property name="Наименование" type="xs:string"/>
+		<property name="Код" type="xs:string"/>
+		<property name="ВидНоменклатуры" type="xs:string"/>
+	</objectType>
+	<objectType name="СписокНоменклатуры">
+		<property xmlns:d3p1="http://www.rusl.ru.Nomemclature" name="СтрокаНоменклатуры" type="d3p1:СтрокаНоменклатуры" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="СтрокаНоменклатуры">
+		<property name="Номер" type="xs:int"/>
+		<property xmlns:d3p1="http://www.rusl.ru.Nomemclature" name="Номенулатура" type="d3p1:Nomenclature"/>
+		<property name="Количество" type="xs:int"/>
+		<property name="Цена" type="xs:double"/>
+		<property name="Сумма" type="xs:double"/>
+	</objectType>
+</package>

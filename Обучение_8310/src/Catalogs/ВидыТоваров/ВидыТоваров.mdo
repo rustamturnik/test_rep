@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cad91d58-67dc-4720-9bc1-8b224d6dab4a">
+  <producedTypes>
+    <objectType typeId="9005fcaf-5d9b-4f68-a39b-3a1253da838c" valueTypeId="c2c903d5-a6e3-46ed-82ad-d76a33f2948a"/>
+    <refType typeId="f8e74926-85ce-4829-b381-f0dd920270bb" valueTypeId="9a0760da-eab3-4402-b58b-ff03476ddd26"/>
+    <selectionType typeId="ca6f5ea9-3885-458f-ae0f-f80ef594421e" valueTypeId="af318fe4-10bd-42dc-a707-72f69c8bcf4f"/>
+    <listType typeId="b8ac54f6-a002-4e83-8800-f73852b494cc" valueTypeId="f1818d7c-7651-4ed2-a2db-00ce9e63d173"/>
+    <managerType typeId="4f64abc3-cfdc-454b-8401-e83e6cbfff38" valueTypeId="ed85743a-9d99-425e-b1e4-0b475c8bca34"/>
+  </producedTypes>
+  <name>ВидыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды товаров</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыТоваров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыТоваров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="fd641bf3-9b6b-4e49-bf43-9632963ee27a">
+      <name>БытоваяХимия</name>
+      <description>Бытовая химия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6648b84c-fc43-4d1b-be14-e31239d075d7">
+      <name>Косметика</name>
+      <description>Косметика</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="8c05fec1-5bb8-45cf-96ec-5ab8e53b312d">
+      <name>Мебель</name>
+      <description>Мебель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

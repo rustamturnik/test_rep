@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ca3b77d-8072-47ce-801d-02bde1ce725f">
+  <producedTypes>
+    <managerType typeId="6586d7c8-6500-4ed2-a5f9-c76e258d4d28" valueTypeId="db6117bd-df48-4ad7-8a5b-d273af7e5611"/>
+    <valueManagerType typeId="340d50f3-8f58-44cc-a782-09cf35398138" valueTypeId="7d9ebcd4-f94a-45e0-8351-b58be1054bf5"/>
+  </producedTypes>
+  <name>ПаузаПриПроведении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пауза при проведении</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

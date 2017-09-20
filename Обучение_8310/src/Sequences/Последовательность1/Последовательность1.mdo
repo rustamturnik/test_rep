@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee81e821-9f6b-48be-9d97-0050844413a9">
+  <producedTypes>
+    <recordType typeId="a08b2576-7995-4159-9c76-fc6676958e63" valueTypeId="5b509b4a-141a-4bf0-953b-13a1102aaebc"/>
+    <managerType typeId="16f4a3e9-7529-4571-a5b3-6a359625fbb5" valueTypeId="2abb1da7-0318-4d0f-9765-e6f502ffe852"/>
+    <recordSetType typeId="15299371-22d3-478c-aba2-495141b42fb8" valueTypeId="13eff88d-20fb-4fe1-8ebf-34e13fc68aeb"/>
+  </producedTypes>
+  <name>Последовательность1</name>
+  <comment></comment>
+  <documents>Document.Продажа</documents>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="8f44da46-ecf4-43ea-846b-943317506a9f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <documentMap>Document.Продажа.Attribute.Контрагент</documentMap>
+  </dimensions>
+  <dimensions uuid="a4bf3bbf-f03c-482f-9643-a29067a11860">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Склад</types>
+    </type>
+    <documentMap>Document.Продажа.Attribute.Склад</documentMap>
+  </dimensions>
+</mdclass:Sequence>
