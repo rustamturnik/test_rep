@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cde793b-994d-49fb-b802-749a26c5d6f5">
   <producedTypes>
-    <objectType typeId="160c83ce-9bdf-4a2a-9c18-3ef6e00372ba" valueTypeId="ebe309e0-87c2-4600-9d5d-447b808cc52c"/>
-    <refType typeId="1d46a766-df91-4f54-a054-a8f63fa85f12" valueTypeId="a41e77ff-0852-4339-9a8e-c739cb339f9e"/>
-    <selectionType typeId="be41754d-ef39-45c9-93f7-d4e5ba056456" valueTypeId="e30c93de-6d7c-441b-b7f2-59e88f6151ea"/>
-    <listType typeId="8fe5d5bf-fce4-486c-a87d-c0a81b7657ec" valueTypeId="b0933a2b-2895-4b1a-a331-cad875792f02"/>
-    <managerType typeId="9f317224-2ae5-43f4-8b84-7a2cbd756dc8" valueTypeId="412027e4-4570-454f-aa47-0de3f632230c"/>
+    <objectType typeId="160c83ce-9bdf-4a2a-9c18-3ef6e00372ba" valueTypeId="ebe309e0-87c2-4600-9d5d-447b808cc52c">
+    </objectType>
+    <refType typeId="1d46a766-df91-4f54-a054-a8f63fa85f12" valueTypeId="a41e77ff-0852-4339-9a8e-c739cb339f9e">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="be41754d-ef39-45c9-93f7-d4e5ba056456" valueTypeId="e30c93de-6d7c-441b-b7f2-59e88f6151ea">
+    </selectionType>
+    <listType typeId="8fe5d5bf-fce4-486c-a87d-c0a81b7657ec" valueTypeId="b0933a2b-2895-4b1a-a331-cad875792f02">
+    </listType>
+    <managerType typeId="9f317224-2ae5-43f4-8b84-7a2cbd756dc8" valueTypeId="412027e4-4570-454f-aa47-0de3f632230c">
+    </managerType>
   </producedTypes>
   <name>Товары</name>
   <synonym>
@@ -152,6 +158,20 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="161cb316-cdac-4e30-82d5-e5d4d20c83e4">
+    <name>Реквизит3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <forms uuid="932e9e2a-e858-4358-a68d-11c5f3228c0f">
